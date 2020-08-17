@@ -1,27 +1,29 @@
-to start server please follow these steps
+# to start server please follow these steps
 
 - npm install
 - npm start
 
 ## Part 1
 
-endpoint: localhost:3000/
+**endpoint**: localhost:3000/
 
-method: POST
+**method**: POST
 
-body: {
-	data: Object (not nullable)
-}
+#### body
+
+`{ data: Object (not nullable) }`
 
 
 ## Part 2
 
-endpoint: localhost:3000/github
+**endpoint**: localhost:3000/github
 
-method: GET
+**method**: GET
 
-query: 
-	- q (keyword for searching)
-	- page (default: 1)
+#### query
+
+- q (keyword for searching)
+	
+- page (default: 1)
 
 example: http://localhost:3000/github?page=1&q=nodejs
